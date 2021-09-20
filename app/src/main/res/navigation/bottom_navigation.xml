@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/id_fragment_home">
+  <fragment
+        android:id="@+id/id_fragment_home"
+        android:name="com.example.projrctpropdeal.fragment_home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/id_fragment_auction"
+        android:name="com.example.projrctpropdeal.fragment_auction"
+        android:label="Auctions"
+        tools:layout="@layout/fragment_auction" />
+    <fragment
+        android:id="@+id/id_fragment_roi"
+        android:name="com.example.projrctpropdeal.fragment_roi"
+        android:label="ROI Calculator"
+        tools:layout="@layout/fragment_roi" />
+    <fragment
+        android:id="@+id/id_fragment_future_projects"
+        android:name="com.example.projrctpropdeal.fragment_future_projects"
+        android:label="Future Projects"
+        tools:layout="@layout/fragment_future_projects" />
+    <fragment
+        android:id="@+id/id_fragment_sell"
+        android:name="com.example.projrctpropdeal.fragment_sell"
+        android:label="Sell Your Property"
+        tools:layout="@layout/fragment_sell" />
+
+
+</navigation>

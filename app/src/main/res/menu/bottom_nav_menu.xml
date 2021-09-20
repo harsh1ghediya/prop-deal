@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/id_fragment_home"
+         android:title="Home"
+         android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/id_fragment_auction"
+        android:title="Auction"
+        android:icon="@drawable/ic_auction"/>
+
+    <item android:id="@+id/id_fragment_future_projects"
+        android:title="Future Proj"
+        android:icon="@drawable/ic_future_project"/>
+
+    <item android:id="@+id/id_fragment_roi"
+        android:title="ROI"
+        android:icon="@drawable/ic_roi"/>
+
+    <item android:id="@+id/id_fragment_sell"
+        android:title="Sell"
+        android:icon="@drawable/ic_sell"/>
+
+</menu>
